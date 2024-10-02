@@ -1,5 +1,5 @@
 # че та решение
-
+```python3
 class Solution:
     def isSubsequence(self, s: str, t: str) -> bool:
         i, j = 0, 0
@@ -13,4 +13,4 @@ class Solution:
 solution = Solution()
 print(solution.isSubsequence("abc", "ahbgdc"))  # Output: True
 print(solution.isSubsequence("axc", "ahbgdc"))  # Output: False
-
+```
